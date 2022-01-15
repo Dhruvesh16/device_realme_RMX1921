@@ -4,11 +4,17 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit some common PixelExtended stuff
+# Inherit some common PixelPlus-UI stuff
 TARGET_BOOT_ANIMATION_RES := 1080
 EXTRA_UDFPS_ANIMATIONS := true
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+# PixelPlus-UI Official Stuff
+IS_PHONE := true
+CUSTOM_BUILD_TYPE := OFFICIAL
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+TARGET_INCLUDE_STOCK_ACORE := false
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
 
 # Inherit from RMX1921 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -22,11 +28,11 @@ PRODUCT_MODEL := Realme XT
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="redfin-user 12 SQ1A.211205.008 7888514 release-keys" \
+    PRIVATE_BUILD_DESC="redfin-user 12 SQ1A.220105.002 7961164 release-keys" \
     PRODUCT_NAME="RMX1921"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := google/redfin/redfin:12/SQ1A.211205.008/7888514:user/release-keys
+BUILD_FINGERPRINT := google/redfin/redfin:12/SQ1A.220105.002/7961164:user/release-keys
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
