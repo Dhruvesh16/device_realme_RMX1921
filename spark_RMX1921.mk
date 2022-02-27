@@ -8,7 +8,7 @@
 TARGET_BOOT_ANIMATION_RES := 1080
 EXTRA_UDFPS_ANIMATIONS := true
 $(call inherit-product, vendor/spark/config/common_full_phone.mk)
-
+TARGET_SUPPORTS_QUICK_TAP := true
 
 # Inherit from RMX1921 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
