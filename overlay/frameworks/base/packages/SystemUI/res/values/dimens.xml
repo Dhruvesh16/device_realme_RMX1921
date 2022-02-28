@@ -26,6 +26,6 @@
     <dimen name="keyguard_indication_margin_bottom_fingerprint_in_display">25dp</dimen>
 
     <!-- Udfps animation -->
-    <dimen name="udfps_animation_offset">37dp</dimen>
+    <dimen name="udfps_animation_offset">8dp</dimen>
 
 </resources>
