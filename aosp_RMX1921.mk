@@ -8,13 +8,14 @@
 TARGET_BOOT_ANIMATION_RES := 1080
 EXTRA_UDFPS_ANIMATIONS := true
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
-
+TARGET_SUPPORTS_QUICK_TAP := true
 # PixelPlus-UI Official Stuff
 IS_PHONE := true
 CUSTOM_BUILD_TYPE := OFFICIAL
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 TARGET_INCLUDE_STOCK_ACORE := false
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Inherit from RMX1921 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
