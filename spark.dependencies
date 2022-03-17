@@ -3,8 +3,4 @@
     "repository":"android_kernel_realme_RMX1921",
     "target_path":"kernel/realme/RMX1921"
   },
-  {
-    "repository":"android_vendor_realme_RMX1921",
-    "target_path":"vendor/realme/RMX1921"
-  }
 ] 
