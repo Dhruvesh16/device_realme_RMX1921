@@ -6,9 +6,6 @@ ro.af.client_heap_size_kbyte=7168
 audio.sys.noisy.broadcast.delay=600
 audio.sys.offload.pstimeout.secs=3
 
-# BPF
-ro.kernel.ebpf.supported=true
-
 # Bluetooth
 ro.bluetooth.wipower=false 
 ro.bluetooth.emb_wp_mode=false
@@ -22,7 +19,7 @@ ro.camera.relight.enable=0
 ro.camera.attr.detect.enable=1
 ro.camera.notify_nfc=1
 camera.disable_zsl_mode=true
-vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera
 
 # Charger
 ro.charger.enable_suspend=true
@@ -80,7 +77,6 @@ ro.com.google.ime.kb_pad_land_l=14
 ro.com.google.ime.kb_pad_land_r=14
 
 # Graphics
-debug.sf.disable_backpressure=1
 debug.sf.enable_hwc_vds=1
 debug.sf.latch_unsignaled=1
 persist.demo.hdmirotationlock=false
