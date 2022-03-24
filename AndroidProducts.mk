@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spark_RMX1921.mk
+    $(LOCAL_DIR)/blaze_RMX1921.mk
 
 COMMON_LUNCH_CHOICES := \
-    spark_RMX1921-userdebug \
-    spark_RMX1921-eng
+    blaze_RMX1921-userdebug \
+    blaze_RMX1921-eng
