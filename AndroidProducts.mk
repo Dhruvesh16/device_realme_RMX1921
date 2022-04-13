@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/blaze_RMX1921.mk
+    $(LOCAL_DIR)/aosp_RMX1921.mk
 
 COMMON_LUNCH_CHOICES := \
-    blaze_RMX1921-userdebug \
-    blaze_RMX1921-eng
+    aosp_RMX1921-userdebug \
+    aosp_RMX1921-eng
