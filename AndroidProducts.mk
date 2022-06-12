@@ -9,4 +9,5 @@ PRODUCT_MAKEFILES := \
 
 COMMON_LUNCH_CHOICES := \
     spark_RMX1921-userdebug \
-    spark_RMX1921-eng
+    spark_RMX1921-eng \
+    spark_RMX1921-user
