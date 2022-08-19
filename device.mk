@@ -221,8 +221,8 @@ PRODUCT_PACKAGES += \
     android.hardware.lights-service.realme_sdm710
 
 # LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sdm
+#PRODUCT_PACKAGES += \
+#    vendor.lineage.livedisplay@2.0-service-sdm
 
 # Media
 PRODUCT_PACKAGES += \
@@ -435,8 +435,8 @@ PRODUCT_BOOT_JARS += \
     telephony-ext
 
 # Touch
-PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.RMX1921
+#PRODUCT_PACKAGES += \
+#    vendor.lineage.touch@1.0-service.RMX1921
 
 # Thermal
 PRODUCT_PACKAGES += \
