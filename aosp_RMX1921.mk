@@ -9,7 +9,11 @@ TARGET_BOOT_ANIMATION_RES := 1080
 EXTRA_UDFPS_ANIMATIONS := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_ENABLE_BLUR := false
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+
+# Elixir Official Stuff
+ELIXIR_BUILD_TYPE := OFFICIAL
+ELIXIR_MAINTAINER := Dhruvesh
 
 # Inherit from RMX1921 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -17,7 +21,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := Realme
 PRODUCT_DEVICE := RMX1921
 PRODUCT_MANUFACTURER := Realme
-PRODUCT_NAME := evolution_RMX1921
+PRODUCT_NAME := aosp_RMX1921
 PRODUCT_MODEL := Realme XT
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
